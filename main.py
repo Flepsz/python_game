@@ -70,7 +70,7 @@ def logic():
         attempts -= 1
         lives_print()
         num_inputted = int(input('Type your number: \n'))
-        print('\n')
+        print('-=' * 17)
         life -= taken_damage()
         if lucky_number == num_inputted:
             match += 1
