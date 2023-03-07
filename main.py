@@ -56,7 +56,7 @@ def start_game():
         print('')
         print('LET THE GAME BEGIN!')
         print('')
-        t = Timer(3.0, time_stop)
+        t = Timer(15.0, time_stop)
         t.start()
 
 
