@@ -1,4 +1,4 @@
-# ----------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
 # Created By  : Luis Felipe Pereira
 # Created Date: 02/26/2023
 # Version 1.0
@@ -56,6 +56,7 @@ def start_game():
         print('')
         print('LET THE GAME BEGIN!')
         print('')
+        print('-=' * 17)
         t = Timer(15.0, time_stop)
         t.start()
 
