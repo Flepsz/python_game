@@ -57,7 +57,7 @@ def start_game():
         print('LET THE GAME BEGIN!')
         print('')
         print('-=' * 17)
-        t = Timer(15.0, time_stop)
+        t = Timer(20.0, time_stop)
         t.start()
 
 
